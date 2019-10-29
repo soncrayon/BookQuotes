@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>BookQuotes</title>
+                <link rel="stylesheet" type="text/css" href="book_quotes.css">
+                <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+                <!-- <div id="navbar">
+                        <p>May not need this navbar for a single page app.</p>
+                </div> -->
+                <div id ="modal">
+                        <div id="modaltextbox">
+                                <div id = "titleandclose">
+                                        <h3>Add a New Book Quote</h3>
+                                        <span id="close">&#735;</span>
+                                </div>
+                                <div id = "formcontainer">
+                                        <form id = "newquoteform">
+                                                Title: <input type = "text" name = "title"> <br><br>
+                                                Author: <input type = "text" name = "author"> <br><br>
+                                                Image URL: <input type = "text" name = "image"> <br><br>
+                                                Genre: <select name = "genre" id = "choosegenre">
+                                                        <option value="not selected">Select Genre</option>
+                                                </select> <br><br>
+                                                Quote: <textarea name = "content"></textarea><br><br>
+                                                <button id = "submit">Submit</button>
+                                                <!-- <input type = "submit"> -->
+                                                <button id = "cancelnewquote">Cancel</button>
+                                        </form>
+                                </div>
+                        </div>
+                        
+                        <!-- <form>
+                               
+                        </form> -->
+                </div>
+                <div id="pagecontent">
+                        <div id="titlehalf">
+                                <div id="titlemenu">
+                                        <div id="titletag">Book Quotes</div>
+                                        <div id="addnewquote">
+                                                <button id = "addnewquotebtn">Add New Quote</button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="quotehalf">
+
+                        </div>
+                        
+                </div>
+                <script src="book_quotes.js"></script>
+        </body>
+</html>
