@@ -123,8 +123,7 @@ const clearNewQuoteForm = () => {
         newQuoteForm[0].value = ``
         newQuoteForm[1].value = ``
         newQuoteForm[2].value = ``
-        newQuoteForm[3].value = `49`
-        //change the above for the new first genre after re-migrating and re-seeding
+        newQuoteForm[3].value = `not selected`
         newQuoteForm[4].value = ``
 }
 
