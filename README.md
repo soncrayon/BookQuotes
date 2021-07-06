@@ -4,7 +4,7 @@
 
 BookQuotes is an app that lets you document and store your favorite quotes from that latest good read.  It is built using a Rails API with some vanilla JavaScript (and of course some HTML and CSS) making up the frontend.
 
-I created this application for the required JavaScript end-of-module project in the Flatiron School Online Web Immersive Program.  My approach was to build something simple and clear where I could apply what I was learning about using Rails as an API and JavaScript to both manipulate the DOM and make AJAX calls to that API.  
+I created this application for the required JavaScript end-of-module project in the Flatiron School Online Web Immersive Program.  My approach was to build something simple and clear where I could apply what I was learning about using Rails as an API and JavaScript to both manipulate the DOM and make fetch calls to that API.  
 
 ### Getting Up and Running
 
